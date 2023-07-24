@@ -179,18 +179,18 @@ clear
 # Display initial message
 print_large_text "${RED}Installing Pop_Shop icons${NC}"
 countdown
-cd ~/Downloads/one_pop_install_all_you_need/io
+cd ~/Downloads/one_pop_install_all_you_need/pop-shop
 sudo ./remove_icons.sh
-sudo cp ~/Downloads/one_pop_install_all_you_need/io/16x16/apps/io.elementary.appcenter.png /usr/share/icons/hicolor/16x16/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/io/16x16@2xapps/io.elementary.appcenter.png /usr/share/icons/hicolor/16x16@2x/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/io/24x24/apps/io.elementary.appcenter.png /usr/share/icons/hicolor/24x24/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/io/24x24@2xapps/io.elementary.appcenter.png /usr/share/icons/hicolor/24x24@2x/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/io/32x32/apps/io.elementary.appcenter.png /usr/share/icons/hicolor/32x32/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/io/32x32@2xapps/io.elementary.appcenter.png /usr/share/icons/hicolor/32x32@2x/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/io/48x48/apps/io.elementary.appcenter.png /usr/share/icons/hicolor/48x48/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/io/48x48@2xapps/io.elementary.appcenter.png /usr/share/icons/hicolor/48x48@2x/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/io/512x512/apps/io.elementary.appcenter.png /usr/share/icons/hicolor/512x512/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/io/512x512@2xapps/io.elementary.appcenter.png /usr/share/icons/hicolor/512x512@2x/apps
+sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/16x16/apps/io.elementary.appcenter.png /usr/share/icons/hicolor/16x16/apps
+sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/16x16@2xapps/io.elementary.appcenter.png /usr/share/icons/hicolor/16x16@2x/apps
+sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/24x24/apps/io.elementary.appcenter.png /usr/share/icons/hicolor/24x24/apps
+sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/24x24@2xapps/io.elementary.appcenter.png /usr/share/icons/hicolor/24x24@2x/apps
+sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/32x32/apps/io.elementary.appcenter.png /usr/share/icons/hicolor/32x32/apps
+sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/32x32@2xapps/io.elementary.appcenter.png /usr/share/icons/hicolor/32x32@2x/apps
+sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/48x48/apps/io.elementary.appcenter.png /usr/share/icons/hicolor/48x48/apps
+sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/48x48@2xapps/io.elementary.appcenter.png /usr/share/icons/hicolor/48x48@2x/apps
+sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/512x512/apps/io.elementary.appcenter.png /usr/share/icons/hicolor/512x512/apps
+sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/512x512@2xapps/io.elementary.appcenter.png /usr/share/icons/hicolor/512x512@2x/apps
 
 clear
 # Display initial message
