@@ -145,13 +145,7 @@ fi
 # Optional: Print a success message
 echo "Installation completed successfully!"
 
-clear
-# Install Yaru themes
-print_large_text "${GREEN}Installing Yaru themes...${NC}"
-countdown
-sudo apt install yaru-theme-gnome-shell yaru-theme-gtk yaru-theme-icon yaru-theme-sound -y
-
-clear
+cclear
 # Run Pop Cosmic Applications Yaru Colors script
 print_large_text "${GREEN}Running Pop Cosmic Applications Yaru Colors script...${NC}"
 countdown
