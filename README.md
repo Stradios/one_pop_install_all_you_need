@@ -11,7 +11,7 @@
 
 
 
-![](Screenshot.png)
+![](Screenshot1.png)
 ![](Screenshot01.png)
 ![](Screenshot.gif)
 
@@ -32,7 +32,7 @@
 * Edit GDM custom configuration
 * 
 
-  <a href="https://t.me/Stradios">
+<a href="https://t.me/Stradios">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png" alt="add me
 " width="32" height="32">
   </a>
