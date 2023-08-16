@@ -172,7 +172,7 @@ cd ~/Downloads
 git clone https://github.com/Stradios/Flat-Remix-Pop-Blue-Dark.git
 
 # Change directory to the cloned repository
-cd Flat-Remix-Pop-Blue-Dark
+cd ~/Downloads/Flat-Remix-Pop-Blue-Dark
 
 # Run the install.sh script
 sudo install.sh
