@@ -168,29 +168,34 @@ print_large_text "${GREEN}Running Flat-Remix-Pop-Blue-Dark icon pack installatio
 countdown
 cd ~/Downloads
 
-# Clone the GitHub repository
+# Clone the repository
 git clone https://github.com/Stradios/Flat-Remix-Pop-Blue-Dark.git
 
-# Change directory to the cloned repository
-cd ~/Downloads/Flat-Remix-Pop-Blue-Dark
-
-# Run the install.sh script
-sudo install.sh
-
-# Optional: Ask user if they want to remove the folder
-read -p "Do you want to remove the 'Flat-Remix-Pop-Blue-Dark' folder from Downloads? (yes/no): " remove_folder
-
-if [[ "$remove_folder" =~ ^[Yy][Ee][Ss]$ ]]; then
-    # Remove the folder
-    cd ..
-    rm -rf Flat-Remix-Pop-Blue-Dark
-    echo "Folder removed successfully!"
+# Check if the clone was successful
+if [ $? -eq 0 ]; then
+    echo "Repository cloned successfully."
 else
-    echo "Folder not removed."
+    echo "Repository clone failed. Exiting."
+    exit 1
 fi
 
-# Optional: Print a success message
-echo "Installation completed successfully!"
+# Create target directories if they don't exist
+sudo mkdir -p /usr/share/icons
+sudo mkdir -p /usr/share/icons/.icons
+
+# Copy the icon theme to the target directories
+sudo cp -r Flat-Remix-Pop-Blue-Dark/ /usr/share/icons/
+sudo cp -r Flat-Remix-Pop-Blue-Dark/ /usr/share/icons/.icons/
+
+# Set appropriate permissions
+sudo chown -R root:root /usr/share/icons/Flat-Remix-Pop-Blue-Dark
+sudo chown -R root:root /usr/share/icons/.icons/Flat-Remix-Pop-Blue-Dark
+
+# Clean up
+rm -rf Flat-Remix-Pop-Blue-Dark
+
+echo "Icon theme copied successfully to /usr/share/icons/ and /.icons/"
+
 
 clear
 # Run Segoe UI Linux installation script
