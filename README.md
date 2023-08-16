@@ -11,11 +11,11 @@
 
 
 
-![](Screenshot1.png)
+![][def]
 
-![](Screenshot01.png)
+![][def2]
 
-![](Screenshot.gif)
+![][def3]
 
 
 
@@ -39,3 +39,8 @@
 " width="32" height="32">
   </a>
  
+
+
+[def]: Screenshot1.png
+[def2]: Screenshot01.png
+[def3]: Screenshot.gif
