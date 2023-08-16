@@ -11,12 +11,9 @@
 
 
 
-![][def]
-
-![][def2]
-
-![][def3]
-
+![](Screenshot1.png)
+![](Screenshot01.png)
+![](Screenshot.gif)
 
 
 * Update and upgrade packages<img src="https://static-00.iconduck.com/assets.00/pop-os-icon-512x512-j4ghbj1n.png" width="16" height="16">
@@ -39,8 +36,3 @@
 " width="32" height="32">
   </a>
  
-
-
-[def]: Screenshot1.png
-[def2]: Screenshot01.png
-[def3]: Screenshot.gif
