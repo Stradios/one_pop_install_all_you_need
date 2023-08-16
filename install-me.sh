@@ -167,97 +167,36 @@ chmod +x remove_icons.sh copy_icons.sh
 # Run the install.sh script
 sudo ./remove_icons.sh
 sudo ./copy_icons.sh
-clear
-# Display initial message
-print_large_text "${RED}Installing Pop_Shop icons${NC}"
-countdown
-cd ~/Downloads/one_pop_install_all_you_need/pop-shop
-sudo ./remove_icons.sh
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/16x16/apps/io.elementary.appcenter.png /usr/share/icons/hicolor/16x16/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/16x16@2xapps/io.elementary.appcenter.png /usr/share/icons/hicolor/16x16@2x/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/24x24/apps/io.elementary.appcenter.png /usr/share/icons/hicolor/24x24/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/24x24@2xapps/io.elementary.appcenter.png /usr/share/icons/hicolor/24x24@2x/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/32x32/apps/io.elementary.appcenter.png /usr/share/icons/hicolor/32x32/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/32x32@2xapps/io.elementary.appcenter.png /usr/share/icons/hicolor/32x32@2x/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/48x48/apps/io.elementary.appcenter.png /usr/share/icons/hicolor/48x48/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/48x48@2xapps/io.elementary.appcenter.png /usr/share/icons/hicolor/48x48@2x/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/512x512/apps/io.elementary.appcenter.png /usr/share/icons/hicolor/512x512/apps
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-shop/512x512@2xapps/io.elementary.appcenter.png /usr/share/icons/hicolor/512x512@2x/apps
 
 clear
-# Display initial message
-print_large_text "${RED}Installing Pop_Logo icons${NC}"
+# Run Flat-Remix-Pop-Blue-Dark icon pack installation script
+print_large_text "${GREEN}Running Flat-Remix-Pop-Blue-Dark icon pack installation script...${NC}"
 countdown
-# Pop logo Yaru 
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru/24x24/places/*.svg /usr/share/icons/Yaru/24x24/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru/32x32/places/*.svg /usr/share/icons/Yaru/32x32/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru/48x48/places/*.svg /usr/share/icons/Yaru/48x48/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru/64x64/places/*.svg /usr/share/icons/Yaru/64x64/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru/128x128/places/*.svg /usr/share/icons/Yaru/128x128/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru/256x256/places/*.svg /usr/share/icons/Yaru/256x256/places/
-# Pop logo Yaru-bark
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-bark/24x24/places/*.svg /usr/share/icons/Yaru-bark/24x24/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-bark/32x32/places/*.svg /usr/share/icons/Yaru-bark/32x32/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-bark/48x48/places/*.svg /usr/share/icons/Yaru-bark/48x48/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-bark/64x64/places/*.svg /usr/share/icons/Yaru-bark/64x64/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-bark/128x128/places/*.svg /usr/share/icons/Yaru-bark/128x128/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-bark/256x256/places/*.svg /usr/share/icons/Yaru-bark/256x256/places/
-# Pop logo Yaru-blue 
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-blue/24x24/places/*.svg /usr/share/icons/Yaru-blue/24x24/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-blue/32x32/places/*.svg /usr/share/icons/Yaru-blue/32x32/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-blue/48x48/places/*.svg /usr/share/icons/Yaru-blue/48x48/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-blue/64x64/places/*.svg /usr/share/icons/Yaru-blue/64x64/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-blue/128x128/places/*.svg /usr/share/icons/Yaru-blue/128x128/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-blue/256x256/places/*.svg /usr/share/icons/Yaru-blue/256x256/places/
-# Pop logo Yaru-magenta 
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-magenta/24x24/places/*.svg /usr/share/icons/Yaru-magenta/24x24/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-magenta/32x32/places/*.svg /usr/share/icons/Yaru-magenta/32x32/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-magenta/48x48/places/*.svg /usr/share/icons/Yaru-magenta/48x48/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-magenta/64x64/places/*.svg /usr/share/icons/Yaru-magenta/64x64/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-magenta/128x128/places/*.svg /usr/share/icons/Yaru-magenta/128x128/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-magenta/256x256/places/*.svg /usr/share/icons/Yaru-magenta/256x256/places/
-# Pop logo Yaru-olive 
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-olive/24x24/places/*.svg /usr/share/icons/Yaru-olive/24x24/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-olive/32x32/places/*.svg /usr/share/icons/Yaru-olive/32x32/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-olive/48x48/places/*.svg /usr/share/icons/Yaru-olive/48x48/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-olive/64x64/places/*.svg /usr/share/icons/Yaru-olive/64x64/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-olive/128x128/places/*.svg /usr/share/icons/Yaru-olive/128x128/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-olive/256x256/places/*.svg /usr/share/icons/Yaru-olive/256x256/places/
-# Pop logo Yaru-prussiangreen 
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-prussiangreen/24x24/places/*.svg /usr/share/icons/Yaru-prussiangreen/24x24/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-prussiangreen/32x32/places/*.svg /usr/share/icons/Yaru-prussiangreen/32x32/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-prussiangreen/48x48/places/*.svg /usr/share/icons/Yaru-prussiangreen/48x48/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-prussiangreen/64x64/places/*.svg /usr/share/icons/Yaru-prussiangreen/64x64/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-prussiangreen/128x128/places/*.svg /usr/share/icons/Yaru-prussiangreen/128x128/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-prussiangreen/256x256/places/*.svg /usr/share/icons/Yaru-prussiangreen/256x256/places/
-# Pop logo Yaru-purple 
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-purple/24x24/places/*.svg /usr/share/icons/Yaru-purple/24x24/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-purple/32x32/places/*.svg /usr/share/icons/Yaru-purple/32x32/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-purple/48x48/places/*.svg /usr/share/icons/Yaru-purple/48x48/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-purple/64x64/places/*.svg /usr/share/icons/Yaru-purple/64x64/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-purple/128x128/places/*.svg /usr/share/icons/Yaru-purple/128x128/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-purple/256x256/places/*.svg /usr/share/icons/Yaru-purple/256x256/places/
-# Pop logo Yaru-red 
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-red/24x24/places/*.svg /usr/share/icons/Yaru-red/24x24/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-red/32x32/places/*.svg /usr/share/icons/Yaru-red/32x32/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-red/48x48/places/*.svg /usr/share/icons/Yaru-red/48x48/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-red/64x64/places/*.svg /usr/share/icons/Yaru-red/64x64/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-red/128x128/places/*.svg /usr/share/icons/Yaru-red/128x128/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-red/256x256/places/*.svg /usr/share/icons/Yaru-red/256x256/places/
-# Pop logo Yaru-sage 
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-sage/24x24/places/*.svg /usr/share/icons/Yaru-sage/24x24/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-sage/32x32/places/*.svg /usr/share/icons/Yaru-sage/32x32/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-sage/48x48/places/*.svg /usr/share/icons/Yaru-sage/48x48/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-sage/64x64/places/*.svg /usr/share/icons/Yaru-sage/64x64/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-sage/128x128/places/*.svg /usr/share/icons/Yaru-sage/128x128/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-sage/256x256/places/*.svg /usr/share/icons/Yaru-sage/256x256/places/
-# Pop logo Yaru-viridian 
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-viridian/24x24/places/*.svg /usr/share/icons/Yaru-viridian/24x24/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-viridian/32x32/places/*.svg /usr/share/icons/Yaru-viridian/32x32/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-viridian/48x48/places/*.svg /usr/share/icons/Yaru-viridian/48x48/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-viridian/64x64/places/*.svg /usr/share/icons/Yaru-viridian/64x64/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-viridian/128x128/places/*.svg /usr/share/icons/Yaru-viridian/128x128/places/
-sudo cp ~/Downloads/one_pop_install_all_you_need/pop-logo/Yaru-pop/Yaru-viridian/256x256/places/*.svg /usr/share/icons/Yaru-viridian/256x256/places/
+cd ~/Downloads
+
+# Clone the GitHub repository
+git clone https://github.com/Stradios/Flat-Remix-Pop-Blue-Dark.git
+
+# Change directory to the cloned repository
+cd Flat-Remix-Pop-Blue-Dark
+
+# Run the install.sh script
+sudo install.sh
+
+# Optional: Ask user if they want to remove the folder
+read -p "Do you want to remove the 'Flat-Remix-Pop-Blue-Dark' folder from Downloads? (yes/no): " remove_folder
+
+if [[ "$remove_folder" =~ ^[Yy][Ee][Ss]$ ]]; then
+    # Remove the folder
+    cd ..
+    rm -rf Flat-Remix-Pop-Blue-Dark
+    echo "Folder removed successfully!"
+else
+    echo "Folder not removed."
+fi
+
+# Optional: Print a success message
+echo "Installation completed successfully!"
 
 clear
 # Run Segoe UI Linux installation script
