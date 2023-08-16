@@ -1,16 +1,21 @@
-
 # One Pop Install all you need
-
-![](Screenshot.png)
-
-# One pop os script for fast install of all you need for this look.
 ![](Screenshot-terminal.png)
+# One pop os script for fast install of all you need for this look.
+
 
     cd Downloads/
     git clone https://github.com/Stradios/one_pop_install_all_you_need.git
     cd one_pop_install_all_you_need/
     chmod +x install-me.sh
     ./install-me.sh
+
+
+
+![](Screenshot.png)
+![](Screenshot01.png)
+![](Screenshot.gif)
+
+
 
 * Update and upgrade packages<img src="https://static-00.iconduck.com/assets.00/pop-os-icon-512x512-j4ghbj1n.png" width="16" height="16">
 * Install Ubuntu restricted extras<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo-ubuntu_cof-orange-hex.svg/285px-Logo-ubuntu_cof-orange-hex.svg.png" width="16" height="16">
