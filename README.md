@@ -13,7 +13,7 @@
 
 ![](Screenshot1.png)
 ![](Screenshot01.png)
-![](Screenshot.gif)
+![](Screenshot1.gif)
 
 
 * Update and upgrade packages<img src="https://static-00.iconduck.com/assets.00/pop-os-icon-512x512-j4ghbj1n.png" width="16" height="16">
