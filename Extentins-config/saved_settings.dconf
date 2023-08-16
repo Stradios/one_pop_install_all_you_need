@@ -1,33 +1,54 @@
+[com/github/donadigo/eddy]
+mime-types=['application/vnd.debian.binary-package', 'application/x-deb']
+window-x=150
+window-y=150
+
 [io/elementary/appcenter/settings]
 cached-drivers=@as []
-last-refresh-time=int64 1690139254
+last-refresh-time=int64 1692173880
 window-maximized=false
-window-position=(50, 50)
-window-size=(1100, 660)
+window-position=(85, 70)
+window-size=(910, 640)
 
 [org/gnome/control-center]
-last-panel='upgrade'
+last-panel='info-overview'
+
+[org/gnome/desktop/app-folders]
+folder-children=['Pop-Office', 'Pop-System', 'Pop-Utility', '541196e8-4bad-4bd8-a0ea-8d4444ee16cf', '619e7160-7f9a-4713-9e07-cfee45183f6b']
+
+[org/gnome/desktop/app-folders/folders/541196e8-4bad-4bd8-a0ea-8d4444ee16cf]
+apps=['io.mrarm.mcpelauncher.desktop', 'net.lutris.Lutris.desktop']
+excluded-apps=@as []
+name='Games'
+
+[org/gnome/desktop/app-folders/folders/619e7160-7f9a-4713-9e07-cfee45183f6b]
+apps=['org.gimp.GIMP.desktop', 'com.boxy_svg.BoxySVG.desktop']
+excluded-apps=@as []
+name='Graffiti'
 
 [org/gnome/desktop/app-folders/folders/Pop-Office]
-apps=['libreoffice-calc.desktop', 'libreoffice-draw.desktop', 'libreoffice-impress.desktop', 'libreoffice-math.desktop', 'libreoffice-startcenter.desktop', 'libreoffice-writer.desktop']
+apps=['libreoffice-calc.desktop', 'libreoffice-draw.desktop', 'libreoffice-impress.desktop', 'libreoffice-math.desktop', 'libreoffice-startcenter.desktop', 'libreoffice-writer.desktop', 'com.visualstudio.code.desktop']
+excluded-apps=@as []
 name='Office'
 translate=true
 
 [org/gnome/desktop/app-folders/folders/Pop-System]
-apps=['gnome-language-selector.desktop', 'gnome-session-properties.desktop', 'gnome-system-monitor.desktop', 'im-config.desktop', 'nm-connection-editor.desktop', 'nvidia-settings.desktop', 'org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.PowerStats.desktop', 'org.gnome.seahorse.Application.desktop', 'software-properties-gnome.desktop', 'system76-driver.desktop', 'system76-firmware.desktop']
+apps=['gnome-language-selector.desktop', 'gnome-session-properties.desktop', 'gnome-system-monitor.desktop', 'im-config.desktop', 'nm-connection-editor.desktop', 'nvidia-settings.desktop', 'org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.PowerStats.desktop', 'org.gnome.seahorse.Application.desktop', 'software-properties-gnome.desktop', 'system76-driver.desktop', 'system76-firmware.desktop', 'gnome-control-center.desktop']
+excluded-apps=@as []
 name='System'
 translate=true
 
 [org/gnome/desktop/app-folders/folders/Pop-Utility]
-apps=['com.github.donadigo.eddy.desktop', 'com.system76.Popsicle.desktop', 'gucharmap.desktop', 'info.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.Extensions.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Screenshot.desktop', 'org.gnome.Totem.desktop', 'pop-cosmic-applications.desktop', 'pop-cosmic-launcher.desktop', 'pop-cosmic-workspaces.desktop', 'simple-scan.desktop', 'yelp.desktop']
+apps=['com.mattjakeman.ExtensionManager.desktop', 'yelp.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'com.system76.Popsicle.desktop', 'org.gnome.font-viewer.desktop', 'simple-scan.desktop', 'info.desktop', 'org.gnome.Totem.desktop', 'gucharmap.desktop', 'org.gnome.Extensions.desktop', 'org.gnome.FileRoller.desktop', 'com.github.donadigo.eddy.desktop']
+excluded-apps=@as []
 name='Utilities'
 translate=true
 
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/stradios/Pictures/Wallpapers/wallpaper.jpg'
-picture-uri-dark='file:///home/stradios/Pictures/Wallpapers/wallpaper.jpg'
+picture-uri='file:///home/stradios/Pictures/Wallpapers/1272636.png'
+picture-uri-dark='file:///home/stradios/Pictures/Wallpapers/1272636.png'
 primary-color='#000000'
 secondary-color='#000000'
 
@@ -38,24 +59,39 @@ xkb-options=@as []
 
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
-cursor-theme='Yaru'
+cursor-theme='Pop'
 document-font-name='Segoe UI 11'
 enable-animations=true
 font-antialiasing='grayscale'
 font-hinting='slight'
 font-name='Segoe UI Light 10'
 gtk-theme='Fluent-Dark'
-icon-theme='Yaru-blue'
+icon-theme='Flat-Remix-Pop-Blue-Dark'
 monospace-font-name='Segoe UI 11'
 
 [org/gnome/desktop/notifications]
-application-children=['gnome-power-panel', 'org-gnome-extensions-desktop', 'org-gnome-nautilus', 'org-gnome-gedit']
+application-children=['gnome-power-panel', 'org-gnome-extensions-desktop', 'org-gnome-nautilus', 'org-gnome-gedit', 'firefox', 'telegramdesktop', 'io-elementary-appcenter', 'org-gimp-gimp', 'org-gnome-fileroller', 'com-github-donadigo-eddy']
+
+[org/gnome/desktop/notifications/application/com-github-donadigo-eddy]
+application-id='com.github.donadigo.eddy.desktop'
+
+[org/gnome/desktop/notifications/application/firefox]
+application-id='firefox.desktop'
 
 [org/gnome/desktop/notifications/application/gnome-power-panel]
 application-id='gnome-power-panel.desktop'
 
+[org/gnome/desktop/notifications/application/io-elementary-appcenter]
+application-id='io.elementary.appcenter.desktop'
+
+[org/gnome/desktop/notifications/application/org-gimp-gimp]
+application-id='org.gimp.GIMP.desktop'
+
 [org/gnome/desktop/notifications/application/org-gnome-extensions-desktop]
 application-id='org.gnome.Extensions.desktop.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-fileroller]
+application-id='org.gnome.FileRoller.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-gedit]
 application-id='org.gnome.gedit.desktop'
@@ -63,13 +99,17 @@ application-id='org.gnome.gedit.desktop'
 [org/gnome/desktop/notifications/application/org-gnome-nautilus]
 application-id='org.gnome.Nautilus.desktop'
 
+[org/gnome/desktop/notifications/application/telegramdesktop]
+application-id='telegramdesktop.desktop'
+
 [org/gnome/desktop/privacy]
 report-technical-problems=false
 
 [org/gnome/desktop/sound]
-theme-name='Yaru'
+theme-name='Pop'
 
 [org/gnome/desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
 titlebar-font='Segoe UI Semi-Bold 10'
 
 [org/gnome/eog/view]
@@ -80,13 +120,29 @@ use-background-color=true
 migrated=true
 network-monitor-gio-name=''
 
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=250
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=480
+window-width=600
+
 [org/gnome/gedit/plugins]
-active-plugins=['filebrowser', 'sort', 'spell', 'docinfo', 'openlinks', 'modelines']
+active-plugins=['openlinks', 'filebrowser', 'spell', 'sort', 'docinfo', 'modelines']
 
 [org/gnome/gedit/plugins/filebrowser]
 root='file:///'
 tree-view=true
 virtual-root='file:///home/stradios/Downloads/one_pop_install_all_you_need'
+
+[org/gnome/gedit/preferences/editor]
+scheme='pop-dark'
+wrap-last-split-mode='word'
 
 [org/gnome/gedit/preferences/ui]
 show-tabs-mode='auto'
@@ -99,7 +155,14 @@ size=(900, 700)
 state=87168
 
 [org/gnome/mutter]
+edge-tiling=true
 overlay-key='Super_L'
+
+[org/gnome/nautilus/compression]
+default-compression-format='zip'
+
+[org/gnome/nautilus/icon-view]
+default-zoom-level='small'
 
 [org/gnome/nautilus/preferences]
 default-folder-viewer='icon-view'
@@ -107,8 +170,9 @@ search-filter-time-type='last_modified'
 search-view='list-view'
 
 [org/gnome/nautilus/window-state]
-initial-size=(890, 550)
+initial-size=(948, 1016)
 maximized=false
+sidebar-width=289
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/PopLaunch1]
 binding='Launch1'
@@ -122,10 +186,12 @@ sleep-inactive-battery-timeout=1800
 sleep-inactive-battery-type='suspend'
 
 [org/gnome/shell]
+app-picker-layout=[{'org.gnome.Geary.desktop': <{'position': <0>}>, 'org.gnome.Contacts.desktop': <{'position': <1>}>, 'org.gnome.Weather.desktop': <{'position': <2>}>, 'org.gnome.Calendar.desktop': <{'position': <3>}>, 'Pop-Office': <{'position': <4>}>, 'org.gnome.Calculator.desktop': <{'position': <5>}>, 'org.gnome.gedit.desktop': <{'position': <6>}>, 'Pop-System': <{'position': <7>}>, 'telegramdesktop.desktop': <{'position': <8>}>, 'Pop-Utility': <{'position': <9>}>, 'com.valvesoftware.Steam.desktop': <{'position': <10>}>, 'com.mojang.Minecraft.desktop': <{'position': <11>}>, 'org.gnome.tweaks.desktop': <{'position': <12>}>, '541196e8-4bad-4bd8-a0ea-8d4444ee16cf': <{'position': <13>}>, '619e7160-7f9a-4713-9e07-cfee45183f6b': <{'position': <14>}>}]
 command-history=['r']
-disabled-extensions=['just-perfection-desktop@just-perfection', 'ubuntu-appindicators@ubuntu.com', 'system76-power@system76.com', 'pop-cosmic@system76.com', 'ding@rastersoft.com', 'popx11gestures@system76.com', 'cosmic-workspaces@system76.com', 'cosmic-dock@system76.com']
-enabled-extensions=['arcmenu@arcmenu.com', 'bluetooth-quick-connect@bjarosze.gmail.com', 'blur-my-shell@aunetx', 'caffeine@patapon.info', 'clipboard-indicator@tudmotu.com', 'dash-to-panel@jderose9.github.com', 'date-menu-formatter@marcinjakubowski.github.com', 'gsconnect@andyholmes.github.io', 'mediacontrols@cliffniff.github.com', 'notification-banner-reloaded@marcinjakubowski.github.com', 'refresh-wifi@kgshank.net', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'sound-output-device-chooser@kgshank.net', 'trayIconsReloaded@selfmade.pl', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'roundedSystemMenuButtons@pratap.fastmail.fm', 'appindicatorsupport@rgcjonas.gmail.com', 'pop-shell@system76.com']
-favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'brave-browser.desktop', 'io.elementary.appcenter.desktop']
+disabled-extensions=['just-perfection-desktop@just-perfection', 'arcmenu@arcmenu.com', 'blur-my-shell@aunetx']
+enabled-extensions=['bluetooth-quick-connect@bjarosze.gmail.com', 'caffeine@patapon.info', 'clipboard-indicator@tudmotu.com', 'dash-to-panel@jderose9.github.com', 'date-menu-formatter@marcinjakubowski.github.com', 'gsconnect@andyholmes.github.io', 'mediacontrols@cliffniff.github.com', 'notification-banner-reloaded@marcinjakubowski.github.com', 'refresh-wifi@kgshank.net', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'sound-output-device-chooser@kgshank.net', 'trayIconsReloaded@selfmade.pl', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'roundedSystemMenuButtons@pratap.fastmail.fm', 'appindicatorsupport@rgcjonas.gmail.com', 'pop-shell@system76.com', 'cosmic-dock@system76.com', 'cosmic-workspaces@system76.com', 'popx11gestures@system76.com', 'ding@rastersoft.com', 'pop-cosmic@system76.com', 'system76-power@system76.com', 'ubuntu-appindicators@ubuntu.com']
+favorite-apps=['pop-cosmic-workspaces.desktop', 'pop-cosmic-launcher.desktop', 'pop-cosmic-applications.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Nautilus.desktop', 'io.elementary.appcenter.desktop', 'com.brave.Browser.desktop']
+had-bluetooth-devices-setup=true
 welcome-dialog-last-shown-version='42.5'
 
 [org/gnome/shell/extensions/arcmenu]
@@ -167,6 +233,9 @@ right-panel-width=205
 search-entry-border-radius=(false, 25)
 search-provider-recent-files=false
 
+[org/gnome/shell/extensions/caffeine]
+user-enabled=false
+
 [org/gnome/shell/extensions/dash-to-dock]
 extend-height=false
 manualhide=true
@@ -195,6 +264,10 @@ show-appmenu=false
 show-apps-icon-file=''
 status-icon-padding=4
 taskbar-locked=false
+trans-panel-opacity=0.10000000000000001
+trans-use-custom-bg=true
+trans-use-custom-opacity=true
+trans-use-dynamic-opacity=true
 tray-padding=4
 tray-size=16
 window-preview-title-position='TOP'
@@ -203,7 +276,7 @@ window-preview-title-position='TOP'
 pattern="'     'kk:mm\\ndd-MM-yy"
 
 [org/gnome/shell/extensions/gsconnect]
-devices=['4e97aacf_5a39_4fa6_ab26_db7a8bd9c256']
+devices=@as []
 id='ae0e5f71-9026-4b74-8af8-869e655124a4'
 name='pop-os'
 
@@ -223,15 +296,28 @@ anchor-horizontal=1
 anchor-vertical=1
 animation-direction=3
 
+[org/gnome/shell/extensions/pop-cosmic]
+show-applications-button=false
+show-workspaces-button=false
+
+[org/gnome/shell/extensions/pop-shell]
+hint-color-rgba='rgb(32,143,233)'
+tile-by-default=false
+
 [org/gnome/shell/extensions/round-system-menu-buttons]
 border-radius=0
-padding=0
+icon-size=16
+padding=8
+use-custom-color=false
 
 [org/gnome/shell/extensions/user-theme]
 name='Fluent-Dark'
 
 [org/gnome/system/location]
 enabled=false
+
+[org/gtk/gtk4/settings/color-chooser]
+selected-color=(true, 0.0, 0.0, 0.0, 1.0)
 
 [org/gtk/gtk4/settings/file-chooser]
 date-format='regular'
@@ -244,18 +330,56 @@ sort-column='name'
 sort-directories-first=false
 sort-order='ascending'
 type-format='category'
-window-size=(805, 327)
+window-size=(805, 374)
+
+[org/gtk/settings/color-chooser]
+custom-colors=[(0.12549019607843137, 0.5607843137254902, 0.9137254901960784, 1.0), (0.98431372549019602, 0.72156862745098038, 0.42352941176470588, 1.0)]
+selected-color=(true, 0.12549019607843137, 0.5607843137254902, 0.9137254901960784, 1.0)
 
 [org/gtk/settings/file-chooser]
 date-format='regular'
 location-mode='path-bar'
-show-hidden=false
+show-hidden=true
 show-size-column=true
 show-type-column=true
 sidebar-width=158
 sort-column='name'
 sort-directories-first=true
-sort-order='ascending'
+sort-order='descending'
 type-format='category'
 window-position=(412, 70)
 window-size=(1096, 856)
+
+[org/virt-manager/virt-manager]
+manager-window-height=550
+manager-window-width=550
+
+[org/virt-manager/virt-manager/confirm]
+delete-storage=true
+forcepoweroff=true
+
+[org/virt-manager/virt-manager/connections]
+autoconnect=['qemu:///system']
+uris=['qemu:///system']
+
+[org/virt-manager/virt-manager/details]
+show-toolbar=true
+
+[org/virt-manager/virt-manager/paths]
+media-default='/home/stradios/Downloads'
+
+[org/virt-manager/virt-manager/urls]
+isos=['/home/stradios/Downloads/pop-os_22.04_amd64_intel_33.iso']
+
+[org/virt-manager/virt-manager/vmlist-fields]
+disk-usage=false
+network-traffic=false
+
+[org/virt-manager/virt-manager/vms/33a22073ae7f48eda2b8877d055113a4]
+autoconnect=1
+scaling=1
+vm-window-size=(1024, 836)
+
+[org/virt-manager/virt-manager/vms/8ddbd8b9a7ec43698d4570439f1ccaa8]
+autoconnect=1
+scaling=1

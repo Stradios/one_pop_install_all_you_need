@@ -103,24 +103,16 @@ countdown
 sudo pam-auth-update
 
 clear
-# Install Telegram Desktop 
+# Install Brave 
+print_large_text "${GREEN}Installing Telegram Desktop...${NC}"
+countdown
+flatpak install flathub com.brave.Browser -y
+
+clear# Install 
+Telegram Desktop 
 print_large_text "${GREEN}Installing Telegram Desktop...${NC}"
 countdown
 sudo apt install telegram-desktop -y
-
-clear
-# Run Brave installation script
-print_large_text "${GREEN}Running Brave Browser...${NC}"
-countdown
-sudo apt install curl
-
-sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-
-echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-
-sudo apt update
-
-sudo apt install brave-browser
 
 clear
 
@@ -301,12 +293,9 @@ clear
 # Insttaling GDM Login Wallpaper
 print_large_text "${GREEN}Insttaling Wallpaper...${NC}"
 print_large_text "${GREEN}Do Not if you dont want but it wil not mache the login!${NC}"
+countdown
+sudo cp -r ~/Downloads/one_pop_install_all_you_need/wallpaper ~/Pictures/
 
-# Set the directory path
-directory="$HOME/Downloads/one_pop_install_all_you_need/wallpaper/"
-
-# Launch the file manager
-xdg-open "$directory"
 
 clear
 # Install Extension Manager via Flatpak
@@ -318,7 +307,7 @@ clear
 # Install Extension Manager via Flatpak
 print_large_text "${GREEN}Installing Extension Manager via Flatpak...${NC}"
 countdown
-flatpak install flathub com.mattjakeman.ExtensionManager
+flatpak install flathub com.mattjakeman.ExtensionManager -y
 
 clear
 # Install GNOME Tweaks
@@ -371,10 +360,7 @@ print_large_text "${GREEN}You will be prompted to reboot after!!!${NC}"
 countdown
 
 cd ~/Downloads/one_pop_install_all_you_need/login
-sudo ./login_wallpapaer.sh
-cd $HOME/.login
-chmod +x jammy-change-gdm-background
-sudo ./jammy-change-gdm-background login-wallpaper.jpg
+sudo ./jammy-change-gdm-background 1272636.png
 
 clear
 # Setting uppdconf
