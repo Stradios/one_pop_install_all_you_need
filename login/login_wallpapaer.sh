@@ -23,5 +23,5 @@ echo "Directory '$source_dir' copied to '$destination_dir'."
 cd $HOME/.login
 chmod +x jammy-change-gdm-background
 print_large_text "${GREEN}Do Not accept y/yes!!!${NC}"
-sudo ./jammy-change-gdm-background login-wallpaper.jpg
+sudo ./jammy-change-gdm-background login-wallpaper.png
 
