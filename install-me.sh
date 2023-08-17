@@ -232,7 +232,7 @@ clear
 print_large_text "${GREEN}Insttaling Wallpaper...${NC}"
 print_large_text "${GREEN}Do Not if you dont want but it wil not mache the login!${NC}"
 countdown
-sudo cp -r ~/Downloads/one_pop_install_all_you_need/wallpaper ~/Pictures/
+cp -r ~/Downloads/one_pop_install_all_you_need/wallpaper ~/Pictures/
 
 
 clear
