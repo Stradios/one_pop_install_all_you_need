@@ -302,6 +302,8 @@ mkdir .login
 cd ~/Downloads/one_pop_install_all_you_need/login/ 
 cp -r jammy-change-gdm-background login-wallpaper.jpg ~/.config/.login/
 cd ~/.config/.login/
+print_large_text "${GREEN}Do Not accept (y/yes)!!!${NC}"
+print_large_text "${GREEN}You will be prompted to reboot after!!!${NC}"
 sudo ./jammy-change-gdm-background login-wallpaper.jpg
 
 clear
