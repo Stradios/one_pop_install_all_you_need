@@ -1,4 +1,5 @@
 # One Pop Install all you need
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M8K423K344)
 ![](Screenshot-terminal.png)
 # One pop os script for fast install of all you need for this look.
 
